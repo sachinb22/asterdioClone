@@ -1,0 +1,24 @@
+nav {
+//   border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 6vw;
+  img {
+    height: 30px;
+    padding-top: 20px;
+  }
+  ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    li {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+     align-items: flex-end;
+     div{
+         font-size: 12px;
+     }
+    }
+  }
+}
